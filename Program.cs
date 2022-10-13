@@ -7,14 +7,14 @@
         ResultArray(firstArray, secondArray);
         PrintArray(secondArray);
     }
-    static void ResultArray(string[] arrayFirst, string[] array2)
+    static void ResultArray(string[] arrayFirst, string[] arraySecond)
         {
             int index = 0;
             for (int i = 0; i < arrayFirst.Length; i++)
             {
                 if (arrayFirst[i].Length <= 3)
                 {
-                    array2[index] = arrayFirst[i];
+                    arraySecond[index] = arrayFirst[i];
                     index++;
                 }
             }
